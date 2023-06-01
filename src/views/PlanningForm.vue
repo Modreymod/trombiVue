@@ -4,9 +4,13 @@
       <div class="col-md-8">
         <h1 class="text-center">Formulaire Planning Type</h1>
         <form @submit.prevent="submitForm">
+          <div class="mb-3">
+            <label for="nomPlanning" class="form-label">Nom du planning:</label>
+            <input type="text" id="nomPlanning" v-model="nomPlanning" class="form-control">
+          </div>
+
           <div v-for="(jour, index) in jours" :key="index">
             <h2 class="mt-4">{{ jour }}</h2>
-
             <div class="mb-3">
               <label class="form-label">Matin:</label>
               <div class="row">
@@ -72,6 +76,7 @@ export default {
   data() {
     return {
       jours: ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'],
+      nomPlanning: "",
       plagesHoraires: [
         {
           matin: {
@@ -207,7 +212,7 @@ export default {
       const data = {
         id: 26,
         idEmploye: 83,
-        nom: "Planning été",
+        inom: this.nomPlanning,
         plagesHoraires: []
       };
 
