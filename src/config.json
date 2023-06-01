@@ -1,9 +1,9 @@
 {
-    "name": "sample",
+    "name": "trombi",
     "env": "dev",
     "cfg": {
-        "module": "sample",
-        "moduleLabel": "Sample module",
+        "module": "RH",
+        "moduleLabel": "Mon trombi",
         "aside": true,
         "app_mode": "default",
         "ppp": "private",

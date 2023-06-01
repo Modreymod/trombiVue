@@ -42,6 +42,13 @@
 			<AppMenu>
 				<AppMenuItem href="/" look="dark" icon="bi bi-house">Accueil</AppMenuItem>
 				<AppMenuItem href="/about" look="dark" icon="bi bi-app">À propos</AppMenuItem>
+				<AppMenuItem href="/EmployeApi" look="dark" icon="bi bi-app">Fiche Employé Api</AppMenuItem>
+				<AppMenuItem href="/EmployeForm" look="dark" icon="bi bi-app">Formulaire Employé</AppMenuItem>
+				<AppMenuItem href="/EmployeList" look="dark" icon="bi bi-app">Liste Employés</AppMenuItem>
+				<AppMenuItem href="/PlanningType" look="dark" icon="bi bi-app">Planning</AppMenuItem>
+				<AppMenuItem href="/PlanningForm" look="dark" icon="bi bi-app">Formulaire Planning</AppMenuItem>
+				<AppMenuItem href="/EmployePlanning" look="dark" icon="bi bi-app">Employé Planning</AppMenuItem>
+				<AppMenuItem href="/EmployeModif" look="dark" icon="bi bi-app">Employé Modification</AppMenuItem>
 			</AppMenu>
 		</template>
 

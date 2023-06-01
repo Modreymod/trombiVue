@@ -16,6 +16,62 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
+    path: '/planningType',
+    name: 'PlanningType',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/PlanningType.vue')
+  },
+  {
+    path: '/planningForm',
+    name: 'PlanningForm',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/PlanningForm.vue')
+  },
+  {
+    path: '/employeApi',
+    name: 'EmployeApi',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/EmployeApi.vue')
+  },
+  {
+    path: '/employeForm',
+    name: 'EmployeForm',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/EmployeForm.vue')
+  },
+  {
+    path: '/employeList',
+    name: 'EmployeList',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/EmployeList.vue')
+  },
+  {
+    path: '/employePlanning',
+    name: 'EmployePlanning',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/EmployePlanning.vue')
+  },
+  {
+    path: '/employeModif',
+    name: 'EmployeModif',
+    // Division de code au niveau de la route
+    // Cela génère un chunk séparé (about.[hash].js) pour cette route
+    // qui est chargé de manière paresseuse lorsque la route est visitée.
+    component: () => import(/* webpackChunkName: "about" */ '../views/EmployeModif.vue')
+  },
+  {
     path: '/element/:id',
     name: 'Element',
     component: () => import(/* webpackChunkName: "about" */ '../views/Element.vue'),
